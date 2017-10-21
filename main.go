@@ -48,11 +48,11 @@ func main() {
 		} else if message.Text == "/p1" {
 			bot.SendMessage(message.Chat, "Kedalaman Kemiskinan (P1) Gianyar\n2010 : 0,8900\n2011 : 0,4550\n2012 : 0,4700\n2013 : 0,4484\n2014 : 0,5500\n2015 : 0,5635", nil)
 		} else if message.Text == "/p2" {
-			bot.SendMessage(message.Chat, "Keparahan Kemiskinan (P2) Gianyar\n2010 : 0,1700\n2011 : 0,0586\n2012 : 0,0800\n2013 : 0,0857\n2014 : 0,1331\n2015 : 0,1001", options)
+			bot.SendMessage(message.Chat, "Keparahan Kemiskinan (P2) Gianyar\n2010 : 0,1700\n2011 : 0,0586\n2012 : 0,0800\n2013 : 0,0857\n2014 : 0,1331\n2015 : 0,1001", nil)
 		} else if message.Text == "/p2" {
-			bot.SendMessage(message.Chat, "Garis Kemiskinan (Rp) Gianyar :\n2010 : 237.904\n2011 : 260.704\n2012 : 274.639\n2013 : 279.742\n2014 : 298.465\n2015 : 320.805", options)
+			bot.SendMessage(message.Chat, "Garis Kemiskinan (Rp) Gianyar :\n2010 : 237.904\n2011 : 260.704\n2012 : 274.639\n2013 : 279.742\n2014 : 298.465\n2015 : 320.805", nil)
 		} else if message.Text == "/tes" {
-			bot.SendMessage(message.Chat, "BOT running on clever-cloud.com", options)
+			bot.SendMessage(message.Chat, "BOT running on clever-cloud.com", nil)
 		} 
 
 	}
