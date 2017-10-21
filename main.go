@@ -52,7 +52,7 @@ func main() {
 		} else if message.Text == "/p2" {
 			bot.SendMessage(message.Chat, "Garis Kemiskinan (Rp) Gianyar :\n2010 : 237.904\n2011 : 260.704\n2012 : 274.639\n2013 : 279.742\n2014 : 298.465\n2015 : 320.805", nil)
 		} else if message.Text == "/tes" {
-			bot.SendMessage(message.Chat, "BOT running on clever-cloud.com", nil)
+			bot.SendMessage(message.Chat, "Tes running bot di clever-cloud.com", nil)
 		} 
 
 	}
