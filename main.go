@@ -10,7 +10,7 @@ import (
 
 func main() {
 	const (
-		// @lebay_bot
+		// @lebay_bot test
 		BOT_TOKEN = "295042840:AAG1jtvqBUa9Z-MlhzSV8Wx_gq0YY0RVzfE"
 		// @gianyar_bot
 		//BOT_TOKEN = "295733510:AAHzYDUqIDpgdiIg0_Re1eqSKd6r8lvKCO8"
