@@ -51,9 +51,7 @@ func main() {
 			bot.SendMessage(message.Chat, "Keparahan Kemiskinan (P2) Gianyar\n2010 : 0,1700\n2011 : 0,0586\n2012 : 0,0800\n2013 : 0,0857\n2014 : 0,1331\n2015 : 0,1001", options)
 		} else if message.Text == "/p2" {
 			bot.SendMessage(message.Chat, "Garis Kemiskinan (Rp) Gianyar :\n2010 : 237.904\n2011 : 260.704\n2012 : 274.639\n2013 : 279.742\n2014 : 298.465\n2015 : 320.805", options)
-		} else if message.Text == "/uptime" {
-			bot.SendMessage(message.Chat, message, options)
-		}
+		} 
 
 	}
 
